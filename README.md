@@ -1,4 +1,4 @@
-# 🔌 IoT-Based Underground Cable Fault Detection System
+# IoT-Based Underground Cable Fault Detection System
 
 ## Overview
 This project aims to **detect and locate faults in underground power cables** using an **Arduino UNO microcontroller**, **IoT (ESP8266)**, and the principle of **Ohm’s Law**.  
@@ -69,10 +69,10 @@ Users can:
 Power Supply → Arduino UNO → Relays → Cable Lines → Switches → LCD + Buzzer + ESP8266 → Blynk Cloud
 
 ## Results
-✅ Accurate fault distance detection displayed on LCD  
-✅ Real-time IoT alert via Blynk mobile app  
-✅ Quick identification of faulty phase line  
-✅ Reduced maintenance and detection time  
+- Accurate fault distance detection displayed on LCD  
+- Real-time IoT alert via Blynk mobile app  
+- Quick identification of faulty phase line  
+- Reduced maintenance and detection time  
 
 
 ---

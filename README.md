@@ -6,7 +6,6 @@ When a fault (short or open circuit) occurs, the system calculates its **distanc
 
 This automation helps reduce human effort and fault detection time, ensuring **efficient maintenance** of underground electrical networks.
 
----
 
 ## Features
 -  Real-time detection of underground cable faults  
@@ -16,7 +15,6 @@ This automation helps reduce human effort and fault detection time, ensuring **e
 -  IoT-enabled monitoring via **Blynk Cloud**  
 -  Works with **three-phase** simulated cable connections  
 
----
 
 ## Working Principle
 The system works on **Ohm’s Law (V = IR)**.  
@@ -31,7 +29,6 @@ This variation is read by the **Arduino UNO’s ADC (Analog to Digital Converter
 
 The calculated fault distance is displayed on the LCD and simultaneously transmitted to the **Blynk IoT Cloud** for live tracking.
 
----
 
 ## Hardware Components
 | Component | Description |
@@ -45,15 +42,12 @@ The calculated fault distance is displayed on the LCD and simultaneously transmi
 | **Power Supply (12V Stepdown Transformer)** | Provides system power |
 | **Switches (SPDT)** | Used to manually simulate cable faults |
 
----
 
 ## Software Requirements
 - **Arduino IDE v1.8+** – for writing and uploading the code  
 - **Blynk IoT App / Web Dashboard** – for real-time data monitoring  
 - **C / C++ Programming Language (Embedded)**  
 - **Proteus (optional)** – for circuit simulation and testing  
-
----
 
 
 ## IoT Integration
@@ -63,7 +57,6 @@ Users can:
 - View exact distance of the fault  
 - Receive push notifications instantly  
 
----
 
 ## Circuit Block Diagram
 Power Supply → Arduino UNO → Relays → Cable Lines → Switches → LCD + Buzzer + ESP8266 → Blynk Cloud

@@ -21,6 +21,7 @@ The system works on **Ohm’s Law (V = IR)**.
 At the feeder end, when DC voltage is applied, the current changes according to the distance of the fault.  
 This variation is read by the **Arduino UNO’s ADC (Analog to Digital Converter)** and processed to determine the **fault distance (in kilometers)**.
 
+
 ### Fault Types Detected:
 - Open Circuit Fault  
 - Short Circuit Fault  
@@ -60,6 +61,7 @@ Users can:
 
 ## Circuit Block Diagram
 Power Supply → Arduino UNO → Relays → Cable Lines → Switches → LCD + Buzzer + ESP8266 → Blynk Cloud
+
 
 ## Results
 - Accurate fault distance detection displayed on LCD  

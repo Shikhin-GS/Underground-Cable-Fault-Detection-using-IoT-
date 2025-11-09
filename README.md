@@ -69,5 +69,3 @@ Power Supply → Arduino UNO → Relays → Cable Lines → Switches → LCD + B
 - Quick identification of faulty phase line  
 - Reduced maintenance and detection time  
 
-
----
